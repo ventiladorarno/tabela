@@ -1,0 +1,75 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Nova fonte */
+    background-color: #e0f2f7; /* Azul claro suave */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 25px; /* Mais padding */
+    border-radius: 12px; /* Mais arredondado */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15); /* Sombra mais pronunciada */
+}
+
+h1 {
+    text-align: center;
+    color: #263238; /* Azul escuro */
+    margin-bottom: 25px;
+    font-size: 2em; /* Título maior */
+}
+
+table {
+    width: 100%;
+    border-collapse: separate; /* Permite bordas arredondadas e espaçamento */
+    border-spacing: 0; /* Remove espaçamento padrão */
+    margin-top: 25px;
+    border-radius: 8px; /* Bordas arredondadas para a tabela */
+    overflow: hidden; /* Garante que o conteúdo respeite o border-radius */
+}
+
+th, td {
+    border: none; /* Remove bordas individuais */
+    padding: 15px; /* Mais padding nas células */
+    text-align: center;
+}
+
+th {
+    background-color: #81c784; /* Verde pastel */
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600; /* Um pouco mais negrito */
+}
+
+tr:nth-child(even) {
+    background-color: #f0f4c3; /* Amarelo muito claro para linhas pares */
+}
+
+tr:hover {
+    background-color: #e6ee9c; /* Amarelo pastel no hover */
+    cursor: pointer; /* Indica que é clicável (embora não seja) */
+}
+
+.nota-aprovado {
+    color: #388e3c; /* Verde mais escuro */
+    font-weight: bold;
+}
+
+.nota-reprovado {
+    color: #c62828; /* Vermelho mais escuro */
+    font-weight: bold;
+}
+
+.nota-recuperacao {
+    color: #fbc02d; /* Laranja mais intenso */
+    font-weight: bold;
+}
+
+.destaque {
+    background-color: #fff9c4; /* Amarelo bem claro para destaque */
+    font-weight: bold;
+    border-left: 3px solid #ffcc80; /* Uma borda lateral para destaque */
+}
